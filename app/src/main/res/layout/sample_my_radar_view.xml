@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tommorowsoft.weixinradarscan.MyRadarView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#ccc"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"
+        app:exampleColor="#33b5e5"
+        app:exampleDimension="24sp"
+        app:exampleDrawable="@android:drawable/ic_menu_add"
+        app:exampleString="Hello, MyRadarView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/photo1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="90dp"
+        android:id="@+id/photo1"
+
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/btn"
+        android:layout_alignParentBottom="true"
+        android:text="@string/exiting" />
+    <!--<ImageView-->
+        <!--android:id="@+id/photo"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="880dp"-->
+        <!--android:src="@drawable/photo"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--/>-->
+</RelativeLayout>
